@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:orientation="horizontal">-->
+
+<!--<ImageView android:layout_width="50dp"-->
+<!--android:layout_height="50dp"-->
+<!--android:background="#000000"-->
+<!--android:layout_margin="10dp"/>-->
+
+<!--<LinearLayout android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:orientation="vertical">-->
+<!--<TextView-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="Restaurant name"-->
+<!--android:layout_marginTop="10dp"-->
+<!--android:textSize="8pt"-->
+<!--android:textStyle="bold"/>-->
+<!--<TextView-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="Restaurant description new restaurant hello world"-->
+<!--android:layout_marginTop="4dp"-->
+<!--android:textSize="4pt"/>-->
+<!--</LinearLayout>-->
+
+<!--</LinearLayout>-->
+
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:orientation="vertical"-->
+<!--android:gravity="bottom">-->
+
+<!--<ImageView android:layout_width="400dp"-->
+<!--android:layout_height="400dp"-->
+<!--android:background="#000000"-->
+<!--android:forceHasOverlappingRendering="true"-->
+<!--android:textAlignment="center"/>-->
+
+<!--<LinearLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent">-->
+
+<!--<TextView android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="Hello world"-->
+<!--android:textSize="30dp"-->
+<!--android:forceHasOverlappingRendering="true"/>-->
+
+<!--</LinearLayout>-->
+
+<!--</LinearLayout>-->
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageView
+            android:id="@+id/myImageView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="#000000"
+            android:layout_margin="20px"
+    />
+
+    <LinearLayout android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignLeft="@id/myImageView"
+                    android:layout_alignTop="@id/myImageView"
+                    android:layout_alignRight="@id/myImageView"
+                    android:layout_alignBottom="@id/myImageView"
+                    android:gravity="left|bottom">
+
+        <TextView
+                android:id="@+id/myImageViewText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Heading"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+        <TextView
+                android:id="@+id/myImageViewText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="City's best restaurants"
+                android:textColor="#ffffff"
+        android:textSize="10dp"/>
+        <TextView
+                android:id="@+id/myImageViewText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="20 PLACES"
+                android:textColor="#ffffff"
+                android:textSize="11dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

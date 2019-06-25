@@ -1,5 +1,6 @@
 package com.application.zomato.starter.activities
 
+import android.graphics.Color
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.TextView
@@ -13,6 +14,10 @@ class BasicActivity : AppCompatActivity() {
         /**
          * Linking an xml layout to a view.
          */
-        setContentView(R.layout.activity_basic)
+        setContentView(R.layout.sample)
+
+//        val textView = findViewById<TextView>(R.id.text)
+//        textView.text = "Hey, There"
+//        textView.setTextColor(Color.MAGENTA);
     }
 }
